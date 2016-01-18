@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+
+
+{% block title %}
+    Contact Orion
+{% endblock title %}
+
+
+{% block body %}
+
+    <div class="spacer-100"></div>
+
+    <div class="content content-wide">
+        <div class="center">
+            <h1 class="thin-border" id="large">Contact Me</h1>
+        </div>
+    </div>
+
+    <div class="content-reactive">
+        <form action="/contact" method="POST" class="contact">
+            <input type="text" name="name" placeholder="Name" required><br />
+            <input type="email" name="email" placeholder="Email" required><br />
+            <input type="text" name="subject" placeholder="Subject" required><br />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+
+    {% if msg %}
+        <div class="content-reactive">
+            <div style='font:16px Arial; text-align:center;'>{{ msg }}</div>
+        </div>
+    {% endif %}
+
+{% endblock body %}

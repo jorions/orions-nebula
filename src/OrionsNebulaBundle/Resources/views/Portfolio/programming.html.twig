@@ -1,0 +1,66 @@
+{% extends '::base.html.twig' %}
+
+
+{% block additionalHead %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/orionsnebula/lightbox/dist/css/lightbox.css') }}"
+{% endblock additionalHead %}
+
+
+{% block title %}
+    Orion's Programming
+{% endblock title %}
+
+
+{% block body %}
+    <div class="spacer-100"></div>
+    <div class="grid-wrapper">
+        <!--<a class="button-link" href="http://basic-blog.orions-nebula.com" target="_blank">
+            <div class="content-reactive-grid">
+                <div class="port-img">
+                    <img src="{{ asset('bundles/orionsnebula/programming/blog.jpg') }}" alt="Blog logo" title="Blog" height="180" width="180" />
+                </div>
+                <div class="port-desc">
+                    <h1 class="thin-border" id="large">Blog</h1>
+                    <pre><p><i>PHP, HTML, MySQL</i></p></pre>
+                    <p>A basic blogging system driven by PHP and MySQL created as the final project for my beginner level class at Austin Coding Academy </p>
+                </div>
+            </div>
+        </a>-->
+        <a class="button-link" href="http://todo.orions-nebula.com" target="_blank">
+            <div class="content-reactive-grid">
+                <div class="port-img">
+                    <img src="{{ asset('bundles/orionsnebula/programming/blog.jpg') }}" alt="To-do logo" title="To-do" height="180" width="180" />
+                </div>
+                <div class="port-desc">
+                    <h1 class="thin-border" id="large">To-do List</h1>
+                    <pre><p><i>PHP, HTML</i></p></pre>
+                    <p>A basic to-do list built on PHP that uses local sessions to track a to-do list and a list of completed items </p>
+                </div>
+            </div>
+        </a>
+        <a class="button-link" href="http://netflix.orions-nebula.com" target="_blank">
+            <div class="content-reactive-grid">
+                <div class="port-img">
+                    <img src="{{ asset('bundles/orionsnebula/programming/blog.jpg') }}" alt="Netflix Search logo" title="Netflix Search" height="180" width="180" />
+                </div>
+                <div class="port-desc">
+                    <h1 class="thin-border" id="large">Netflix Search</h1>
+                    <pre><p><i>PHP, HTML</i></p></pre>
+                    <p>A Netflix searching app based on the Netflix Roulette API which enables users to search Netflix by title, director, and actor</p>
+                </div>
+            </div>
+        </a>
+        <a class="button-link" href="http://acashop.orions-nebula.com" target="_blank">
+            <div class="content-reactive-grid">
+                <div class="port-img">
+                    <img src="{{ asset('bundles/orionsnebula/programming/blog.jpg') }}" alt="ACAShop logo" title="ACAShop" height="180" width="180" />
+                </div>
+                <div class="port-desc">
+                    <h1 class="thin-border" id="large">Online Store</h1>
+                    <pre><p><i>PHP, HTML, MySQL | Symfony Framework</i></p></pre>
+                    <p>A simplified online store built on the Symfony framework that includes login/profile management, cart viewing/editing, and a purchase confirmation email </p>
+                </div>
+            </div>
+        </a>
+    </div>
+{% endblock body %}

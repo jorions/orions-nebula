@@ -1,0 +1,22 @@
+services:
+#    orions_nebula.example:
+#        class: OrionsNebulaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+#db_blog:
+  # we get this class from the provided Simplon literature
+#  class: Simplon\Mysql\Mysql
+  # the arguments are also in the Simplon literature
+  # the arguments are being referred to/used in the paramters.yml file
+#  arguments: [%database_host%, %database_user%, %database_password%, %database_name%]
+
+#db_todo:
+#  class: Simplon\Mysql\Mysql
+#  arguments: [%database_host%, %database_user%, %database_password%, %database_name_todo%]
+
+  acadb:
+    # we get this class from the provided Simplon literature
+    class: Simplon\Mysql\Mysql
+    # the arguments are also in the Simplon literature (under "setup")
+    # the arguments are being referred to and taken from the parameters.yml file
+    arguments: [%database_host%, %database_user%, %database_password%, %database_name%]

@@ -1,0 +1,21 @@
+orions_nebula_homepage:
+    path:     /
+    defaults: {_controller: OrionsNebulaBundle:Main:index }
+#    defaults: { _controller: OrionsNebulaBundle:Default:index }
+
+
+orions_nebula_portfolio_main:
+    path: /portfolio
+    defaults: {_controller: OrionsNebulaBundle:Portfolio:portfolioMain }
+
+orions_nebula_portfolio_artwork:
+    path: /artwork
+    defaults: {_controller: OrionsNebulaBundle:Portfolio:artwork }
+
+orions_nebula_portfolio_programming:
+    path: /programming
+    defaults: {_controller: OrionsNebulaBundle:Portfolio:programming }
+
+orions_nebula_contact:
+    path: /contact
+    defaults: {_controller: OrionsNebulaBundle:Contact:contact }

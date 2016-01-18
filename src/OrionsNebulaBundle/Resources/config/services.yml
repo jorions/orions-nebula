@@ -1,0 +1,15 @@
+services:
+#    orions_nebula.example:
+#        class: OrionsNebulaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+  db:
+    # we get this class from the provided Simplon literature
+    class: Simplon\Mysql\Mysql
+    # the arguments are also in the Simplon literature
+    # the arguments are being referred to/used in the paramters.yml file
+    arguments: [%database_host%, %database_user%, %database_password%, %database_name%]
+
+  login:
+    class: OrionsNebulaBundle\Service\LoginService
+    arguments: ['@db', '@session']

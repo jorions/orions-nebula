@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="{{ asset('bundles/orionsnebula/styles/styles.css') }}" rel="stylesheet">
+        {% block additionalHead %}
+        {% endblock %}
+    </head>
+    <body>
+    <img id="background" src="{{ asset('bundles/orionsnebula/images/orion-nebula_2000x2000.jpg') }}" alt="" />
+
+        {% block nav %}
+            {% include "::nav.html.twig" %}
+        {% endblock %}
+
+        {% block body %}
+        {% endblock %}
+
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>

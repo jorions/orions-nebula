@@ -1,0 +1,40 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    About Orion
+{% endblock title %}
+
+{% block body %}
+
+    <div class="spacer-100"></div>
+    <div class="content content-wide">
+        <div class="center">
+            <h1 class="thin-border" id="large">About Me</h1>
+        </div>
+    </div>
+
+    <div class="about-wrapper">
+        <div class="content about-left about-quote">
+            <p>Somewhere, something incredible is waiting to be known.</p>
+            <p style="text-align:right;"><i>-Carl Sagan</i></p>
+        </div>
+        <div class="about-right about-img">
+            <img class="about-img" src="{{ asset('bundles/orionsnebula/images/profile.jpg') }}" alt="Jared's Github" title="Jared's Github" />
+        </div>
+        <div class="about-left about-info">
+            <p>My name is Jared. I am currently an SEM Senior Analyst at 360Partners in Austin, Texas.</p>
+            <p>MORE INFO TO COME</p>
+        </div>
+        <div class="about-social-media">
+            <a href="https://www.linkedin.com/pub/jared-selcoe/33/26a/ab3" target="_blank">
+                <img class="about-social-media" src="{{ asset('bundles/orionsnebula/images/linkedin_black.png') }}" alt="Jared's LinkedIn" title="Jared's LinkedIn"/>
+            </a>
+            <a href="https://www.linkedin.com/pub/jared-selcoe/33/26a/ab3" target="_blank">
+                <img class="about-social-media" src="{{ asset('bundles/orionsnebula/images/github_black.png') }}" alt="Jared's Github" title="Jared's Github" />
+            </a>
+        </div>
+    </div>
+
+
+
+{% endblock body %}

@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 10.10.10.60
+    database_port: 3306
+    database_name: symfony
+    database_name_blog: portfolio_blog
+    database_name_todo: portfolio_todo
+    database_user: root
+    database_password: root
+    mailer_transport: gmail
+    mailer_host: 127.0.0.1
+    mailer_user: jared.orion.selcoe
+    mailer_password: blubberyish1Orion0602
+    secret: 18d4846942399887150bc761c5ee754643d55687
