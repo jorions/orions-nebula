@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/orionsnebula.iml" filepath="$PROJECT_DIR$/.idea/orionsnebula.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/orions-nebula.iml" filepath="$PROJECT_DIR$/.idea/orions-nebula.iml" />
     </modules>
   </component>
 </project>
