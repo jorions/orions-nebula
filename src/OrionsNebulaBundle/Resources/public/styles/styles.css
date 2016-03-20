@@ -308,7 +308,7 @@ html {
     width: auto;
     display: block;
     float: right;
-    margin: 20px 75px 20px 75px;
+    margin: 20px 55px 20px 95px;
     position: relative;
 }
 
@@ -319,5 +319,9 @@ html {
 
 .about-info {
     width: 480px;
-    height: 500px;
+    height: 650px;
+}
+
+.about-link {
+    color: #9b9b9b;
 }
