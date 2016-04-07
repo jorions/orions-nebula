@@ -5,13 +5,13 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link href="{{ asset('bundles/orionsnebula/styles/styles.css') }}" rel="stylesheet">
-        <link rel="shortcut icon" href="{{ asset('bundles/orionsnebula/images/favicon.ico') }}" type="image/x-icon" />
-        <link rel="icon" href="{{ asset('bundles/orionsnebula/images/favicon.ico') }}" type="image/ico" />
+        <link rel="shortcut icon" href="{{ asset('bundles/orionsnebula/images/main/favicon.ico') }}" type="image/x-icon" />
+        <link rel="icon" href="{{ asset('bundles/orionsnebula/images/main/favicon.ico') }}" type="image/ico" />
         {% block additionalHead %}
         {% endblock %}
     </head>
     <body>
-    <!--<img id="background" src="{{ asset('bundles/orionsnebula/images/orion-nebula_2000x2000.jpg') }}" alt="" />-->
+    <!--<img id="background" src="{{ asset('bundles/orionsnebula/images/main/orion-nebula_2000x2000.jpg') }}" alt="" />-->
 
         {% block nav %}
             {% include "::nav.html.twig" %}
