@@ -2,55 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39588896-f9ad-44b0-b3cf-f4914b315d17" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_1-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_2-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_3-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/abstract_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/astros-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/astros.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/ebb_and_flow-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/ebb_and_flow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/flying-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/flying.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/jaguar-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/jaguar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/personal_portrait-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/personal_portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/pyramid-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/pyramid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/recumbent-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/recumbent.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/rows-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/rows.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/solar_cycle-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/solar_cycle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/tunnels-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/tunnels.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/waves-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/artwork/waves.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/computer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/github_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/linkedin_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/orion-nebula_2000x2000.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/orion-nebula_icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/orion-nebula_original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/paintbrush.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/tempIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/programming/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/logos.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/main/favicon.ico" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/images/main/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nav.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nav.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/styles/styles.css" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/public/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Main/about.html.twig" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Main/about.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/artwork.html.twig" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/artwork.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/portfolioMain.html.twig" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/portfolioMain.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/programming.html.twig" afterPath="$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/programming.html.twig" />
     </list>
     <ignored path="orionsnebula.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -122,38 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artwork.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="artwork.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/artwork.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-              <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-              <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
-              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-              <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
-              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-              <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
-              <caret line="55" column="76" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
-              <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
-              <caret line="67" column="76" selection-start-line="67" selection-start-column="76" selection-end-line="67" selection-end-column="76" />
-              <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
-              <caret line="79" column="76" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
-              <caret line="88" column="83" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
-              <caret line="91" column="76" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
-              <caret line="100" column="83" selection-start-line="100" selection-start-column="83" selection-end-line="100" selection-end-column="83" />
-              <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
-              <caret line="112" column="83" selection-start-line="112" selection-start-column="83" selection-end-line="112" selection-end-column="83" />
-              <caret line="115" column="76" selection-start-line="115" selection-start-column="76" selection-end-line="115" selection-end-column="76" />
-              <caret line="124" column="83" selection-start-line="124" selection-start-column="83" selection-end-line="124" selection-end-column="83" />
-              <caret line="127" column="76" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
-              <caret line="136" column="83" selection-start-line="136" selection-start-column="83" selection-end-line="136" selection-end-column="83" />
-              <caret line="139" column="76" selection-start-line="139" selection-start-column="76" selection-end-line="139" selection-end-column="76" />
-              <caret line="148" column="83" selection-start-line="148" selection-start-column="83" selection-end-line="148" selection-end-column="83" />
-              <caret line="151" column="76" selection-start-line="151" selection-start-column="76" selection-end-line="151" selection-end-column="76" />
-              <caret line="160" column="83" selection-start-line="160" selection-start-column="83" selection-end-line="160" selection-end-column="83" />
-              <caret line="163" column="76" selection-start-line="163" selection-start-column="76" selection-end-line="163" selection-end-column="76" />
-              <caret line="172" column="83" selection-start-line="172" selection-start-column="83" selection-end-line="172" selection-end-column="83" />
-              <caret line="175" column="76" selection-start-line="175" selection-start-column="76" selection-end-line="175" selection-end-column="76" />
+            <state relative-caret-position="2205">
+              <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -459,7 +386,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../card_game" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -511,12 +438,12 @@
       <option name="presentableId" value="Default" />
       <updated>1450675036574</updated>
       <workItem from="1459899716955" duration="36000" />
-      <workItem from="1459999151375" duration="533000" />
+      <workItem from="1459999151375" duration="1043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569000" />
+    <option name="totallyTimeSpent" value="1079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -912,18 +839,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/portfolioMain.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="390">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/nav.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/artwork.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        <state relative-caret-position="2205">
+          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -936,45 +863,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/portfolioMain.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/nav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state relative-caret-position="210">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrionsNebulaBundle/Resources/views/Portfolio/artwork.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-          <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
-          <caret line="55" column="76" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
-          <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
-          <caret line="67" column="76" selection-start-line="67" selection-start-column="76" selection-end-line="67" selection-end-column="76" />
-          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
-          <caret line="79" column="76" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
-          <caret line="88" column="83" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
-          <caret line="91" column="76" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
-          <caret line="100" column="83" selection-start-line="100" selection-start-column="83" selection-end-line="100" selection-end-column="83" />
-          <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
-          <caret line="112" column="83" selection-start-line="112" selection-start-column="83" selection-end-line="112" selection-end-column="83" />
-          <caret line="115" column="76" selection-start-line="115" selection-start-column="76" selection-end-line="115" selection-end-column="76" />
-          <caret line="124" column="83" selection-start-line="124" selection-start-column="83" selection-end-line="124" selection-end-column="83" />
-          <caret line="127" column="76" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
-          <caret line="136" column="83" selection-start-line="136" selection-start-column="83" selection-end-line="136" selection-end-column="83" />
-          <caret line="139" column="76" selection-start-line="139" selection-start-column="76" selection-end-line="139" selection-end-column="76" />
-          <caret line="148" column="83" selection-start-line="148" selection-start-column="83" selection-end-line="148" selection-end-column="83" />
-          <caret line="151" column="76" selection-start-line="151" selection-start-column="76" selection-end-line="151" selection-end-column="76" />
-          <caret line="160" column="83" selection-start-line="160" selection-start-column="83" selection-end-line="160" selection-end-column="83" />
-          <caret line="163" column="76" selection-start-line="163" selection-start-column="76" selection-end-line="163" selection-end-column="76" />
-          <caret line="172" column="83" selection-start-line="172" selection-start-column="83" selection-end-line="172" selection-end-column="83" />
-          <caret line="175" column="76" selection-start-line="175" selection-start-column="76" selection-end-line="175" selection-end-column="76" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="111" />
           <folding />
         </state>
       </provider>
