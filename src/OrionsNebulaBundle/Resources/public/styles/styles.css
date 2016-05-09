@@ -4,11 +4,21 @@
     left: 0;
     z-index: 9999;
     width: 100%;
-    height: 60px;
+    height: auto;
     background-color: #000000;
-    /*
-    background-color: #00a087;
-    */
+}
+
+.nav-img {
+    height: 35px;
+    width: 35px;
+
+    /* NOTE: webkit only works on Safari and Chrome */
+    -webkit-transition: -webkit-filter 0s;
+}
+
+.nav-img:hover {
+    /* NOTE: webkit only works on Safari and Chrome */
+    -webkit-filter: brightness(75%);
 }
 
 /*body {*/
@@ -87,7 +97,7 @@
 }
 
 /* for showing multiple content divs side by side (like in the artwork portfolio) */
-.content-reactive-grid {
+.content-reactive-grid, .content-grid {
     color: #ffffff;
     position: relative;
     z-index: 2;
@@ -119,10 +129,19 @@
     box-shadow: 0 0 40px #000000;
 }
 
+.content-home {
+    width: 250px;
+}
+
+.home-list {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
 
 
 
-.content p, .content h1, .content-reactive p, .content-reactive h1, .content-reactive-grid p, .content-reactive-grid h1 {
+.content p, .content h1, .content-reactive p, .content-reactive h1, .content-reactive-grid p, .content-reactive-grid h1, .home-list li {
     font-family: Arial;
     /* margin: 0 0 30px 0; */
     /* text-indent: 40px; */
@@ -137,7 +156,17 @@
 /* 60 px text */
 #large {
     font: 60px Arial;
-    font-variant:small-caps;"
+    /*font-variant: small-caps;*/
+}
+
+#medium {
+    font: 40px Arial;
+    /*font-variant: small-caps;*/
+}
+
+#small {
+    font: 25px Arial;
+    /*font-variant: small-caps;*/
 }
 
 /* thinner border (good for combining with #large) */
@@ -145,7 +174,10 @@
     margin: auto;
 }
 
-
+.centered-list {
+    width: 30%;
+    margin: auto;
+}
 
 
 /* spacer divs to manually create gaps*/
@@ -220,12 +252,19 @@
     height: 30px;
     font: 18px Arial;
     margin-left: 175px;
+    border: none;
+    background: white;
 }
 
 .contact input[type="submit"]:hover {
     background: #B3B3B3;
     /* removes ugly edge to button */
     border: none;
+}
+
+.contact-msg {
+    font:16px Arial;
+    text-align:center;
 }
 
 
@@ -300,7 +339,7 @@
     font: 30px Arial;
     text-align: center;
     line-height: 60px;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
 }
 
 .about-resume:hover {
