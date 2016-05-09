@@ -1,18 +1,19 @@
 <nav class="fixed-nav-bar">
     <div id="menu" class="menu">
         <ul class="menu-items">
-            <li><a style="font-variant:small-caps;" href="/">Home</a></li>
-            <li><a style="font-variant:small-caps;" href="/portfolio">Portfolio</a></li>
-            <li><a style="font-variant:small-caps;" href="/about">About</a></li>
-            <li><a style="font-variant:small-caps;" href="/contact">Contact</a></li>
+            {# add style="font-variant:small-caps;" to each <a> to add small-caps#}
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
             <li>
                 <a href="https://www.linkedin.com/pub/jared-selcoe/33/26a/ab3" target="_blank">
-                    <img src="{{ asset('bundles/orionsnebula/images/main/linkedin.png') }}" width="35px" height="35px" alt="Jared's LinkedIn" />
+                    <img class="nav-img" src="{{ asset('bundles/orionsnebula/images/main/linkedin.png') }}" alt="Jared's LinkedIn" />
                 </a>
             </li>
             <li>
                 <a href="https://www.github.com/jorions" target="_blank">
-                    <img src="{{ asset('bundles/orionsnebula/images/main/github.png') }}" width="35px" height="35px" alt="Jared's LinkedIn" />
+                    <img class="nav-img" src="{{ asset('bundles/orionsnebula/images/main/github.png') }}" alt="Jared's LinkedIn" />
                 </a>
             </li>
         </ul>
