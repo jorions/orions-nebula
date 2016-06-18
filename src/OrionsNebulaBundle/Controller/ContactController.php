@@ -20,6 +20,8 @@ class ContactController extends Controller
         // If submit button was pressed
         if($req->getMethod() == 'POST')
         {
+            
+            // Assign $msg the value of the checkform. If $msg stays blank the email ready to send
             $msg = $this->checkForm($name, $email, $subject, $message);
         }
 
@@ -53,13 +55,20 @@ class ContactController extends Controller
         if (empty($name) || empty($email) || empty($subject) || empty($message)) {
 
             $msg = 'Make sure all fields are filled in';
-
-            // Make sure email is valid
+            
+        // Make sure email is valid
         } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
             $msg = 'Invalid email entered';
 
+        // Make sure email isn't Russian spam. Note use of === instead of == because if "metro-ccc" was found in the 1st
+        // character of the email strpos would return a 0, which would evaluate similarly to FALSE
+        } else if (strpos($message, "metro-ccc") === FALSE) {
+            
+            // This is a misdirection to make them think they are sending the message successfully
+            $msg = 'Message sent!';
         }
+        
 
         return $msg;
     }
