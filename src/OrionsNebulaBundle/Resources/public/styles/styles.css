@@ -185,12 +185,22 @@
     margin: 100px auto;
 }
 
+.spacer-150 {
+    margin: 150px auto;
+}
+
 .spacer-250 {
     margin: 250px auto;
 }
 
 .spacer-horizontal-100 {
     padding-left: 50px;
+}
+
+
+/* reduce margin manually */
+.margin-top-10 {
+    margin-top: 10px;
 }
 
 
