@@ -61,14 +61,13 @@ class ContactController extends Controller
 
             $msg = 'Invalid email entered';
 
-        // Make sure email isn't Russian spam. Note use of === instead of == because if "metro-ccc" was found in the 1st
-        // character of the email strpos would return a 0, which would evaluate similarly to FALSE
-        } else if (strpos($message, "metro-ccc") === FALSE) {
+        // Make sure email isn't Russian spam
+        } else if (strpos($message, "metro-ccc") > -1) {
             
             // This is a misdirection to make them think they are sending the message successfully
             $msg = 'Message sent!';
         }
-        
+
 
         return $msg;
     }
