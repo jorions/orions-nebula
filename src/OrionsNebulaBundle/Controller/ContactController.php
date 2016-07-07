@@ -55,7 +55,7 @@ class ContactController extends Controller
         if (empty($name) || empty($email) || empty($subject) || empty($message)) {
 
             $msg = 'Make sure all fields are filled in';
-            
+
         // Make sure email is valid
         } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
@@ -71,6 +71,7 @@ class ContactController extends Controller
 
         return $msg;
     }
+
 
 
     public function sendEmail($name, $email, $subject, $message)
