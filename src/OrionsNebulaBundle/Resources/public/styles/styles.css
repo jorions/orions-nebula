@@ -1,36 +1,4 @@
-.fixed-nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    width: 100%;
-    height: auto;
-    background-color: #000000;
-}
-
-.nav-img {
-    height: 35px;
-    width: 35px;
-
-    /* NOTE: webkit only works on Safari and Chrome */
-    -webkit-transition: -webkit-filter 0s;
-    transition: .5s;
-}
-
-.nav-img:hover {
-    /* NOTE: webkit only works on Safari and Chrome */
-    -webkit-filter: brightness(75%);
-    transition: .5s;
-}
-
-/*body {*/
-    /*background: url("../images/main/orion-nebula_2000x2000.jpg") no-repeat fixed;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-/*}*/
-
+/* ########################## BACKGROUND ########################## */
 /* set background as fixed image */
 #background {
     position: fixed;
@@ -39,6 +7,30 @@
     /* preserve aspect ratio */
     min-width: 100%;
     min-height: 100%;
+}
+
+/*body {*/
+/*background: url("../images/main/orion-nebula_2000x2000.jpg") no-repeat fixed;*/
+/*-webkit-background-size: cover;*/
+/*-moz-background-size: cover;*/
+/*-o-background-size: cover;*/
+/*background-size: cover;*/
+/*}*/
+
+
+
+
+
+
+/* ########################## NAV BAR ########################## */
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
 }
 
 .fixed-nav-bar li, .fixed-nav-bar a {
@@ -51,11 +43,6 @@
 
 .menu a, .menu a:visited {
     color: #ffffff;
-    transition: .8s;
-}
-
-.menu a:hover, .menu a:target {
-    color: #B3B3B3;
     transition: .5s;
 }
 
@@ -73,10 +60,40 @@
     text-decoration: none;
 }
 
-.menu-items a:hover, .menu-items a:active {
+.menu-items a:hover, .menu-items a:active, .menu-items a:target {
     color: #b3b3b3;
+    font: 55px Arial;
+    margin-top: -15px;
+    transition: .5s;
 }
 
+.menu-img {
+    height: 35px;
+    width: 35px;
+    transition: .5s;
+
+    /* NOTE: webkit only works on Safari and Chrome */
+    -webkit-transition: -webkit-filter .5s;
+    -webkit-transition: .5s;
+}
+
+.menu-img:hover {
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    transition: .5s;
+
+    /* NOTE: webkit only works on Safari and Chrome */
+    -webkit-filter: brightness(75%);
+    -webkit-transition: .5s;
+}
+
+
+
+
+
+
+/* ########################## GENERAL FORMATTING ########################## */
 .content, .content-reactive {
     color: #ffffff;
     position: relative;
@@ -89,6 +106,9 @@
     -moz-box-shadow: 0 0 20px #000000;
     -webkit-box-shadow: 0 0 20px #000000;
     box-shadow: 0 0 20px #000000;
+}
+
+.content-reactive {
     transition: .5s;
 }
 
@@ -140,14 +160,6 @@
     width: 250px;
 }
 
-.home-list {
-    padding: 0;
-    list-style-type: none;
-    text-align: left;
-}
-
-
-
 .content p, .content h1, .content-reactive p, .content-reactive h1, .content-reactive-grid p, .content-reactive-grid h1, .home-list li {
     font-family: Arial;
     /* margin: 0 0 30px 0; */
@@ -155,6 +167,17 @@
     color: #ffffff;
 }
 
+/* remove underline from hyperlinks */
+.button-link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ########################## MISC. FORMATTING ########################## */
 /* text-centering div */
 .center {
     text-align: center;
@@ -181,13 +204,17 @@
     margin: auto;
 }
 
-.centered-list {
-    width: 30%;
-    margin: auto;
+/* reduce margin manually */
+.margin-top-10 {
+    margin-top: 10px;
 }
 
 
-/* spacer divs to manually create gaps*/
+
+
+
+
+/* ########################## SPACER DIVS ########################## */
 .spacer-100 {
     margin: 100px auto;
 }
@@ -205,12 +232,23 @@
 }
 
 
-/* reduce margin manually */
-.margin-top-10 {
-    margin-top: 10px;
+
+
+
+
+/* ########################## HOME PAGE ########################## */
+.home-list {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
 }
 
 
+
+
+
+
+/* ########################## PORTFOLIO ########################## */
 /* create a 180x180 container for image */
 .port-img {
     width: 180px;
@@ -236,15 +274,9 @@
 
 
 
-/* remove underline from hyperlinks */
-.button-link {
-    text-decoration: none;
-}
 
 
-
-
-/* format the contact form */
+/* ########################## CONTACT ########################## */
 .contact {
     width: 600px;
     margin-left: auto;
@@ -282,13 +314,16 @@
 }
 
 .contact-msg {
-    font:16px Arial;
-    text-align:center;
+    font: 16px Arial;
+    text-align: center;
 }
 
 
 
 
+
+
+/* ########################## ABOUT ME ########################## */
 .about-wrapper {
     width: 1000px;
     overflow: hidden;
@@ -359,7 +394,6 @@
     text-align: center;
     line-height: 60px;
     /*font-variant: small-caps;*/
-    transition: .5s;
 }
 
 .about-resume:hover {
