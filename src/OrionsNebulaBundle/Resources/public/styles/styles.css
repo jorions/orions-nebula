@@ -14,11 +14,13 @@
 
     /* NOTE: webkit only works on Safari and Chrome */
     -webkit-transition: -webkit-filter 0s;
+    transition: .5s;
 }
 
 .nav-img:hover {
     /* NOTE: webkit only works on Safari and Chrome */
     -webkit-filter: brightness(75%);
+    transition: .5s;
 }
 
 /*body {*/
@@ -49,10 +51,12 @@
 
 .menu a, .menu a:visited {
     color: #ffffff;
+    transition: .8s;
 }
 
 .menu a:hover, .menu a:target {
     color: #B3B3B3;
+    transition: .5s;
 }
 
 .menu-items {
@@ -85,6 +89,7 @@
     -moz-box-shadow: 0 0 20px #000000;
     -webkit-box-shadow: 0 0 20px #000000;
     box-shadow: 0 0 20px #000000;
+    transition: .5s;
 }
 
 .content-thin {
@@ -111,6 +116,7 @@
     -moz-box-shadow: 0 0 20px #000000;
     -webkit-box-shadow: 0 0 20px #000000;
     box-shadow: 0 0 20px #000000;
+    transition: .5s;
 }
 
 /* centering grids */
@@ -127,6 +133,7 @@
     -moz-box-shadow: 0 0 40px #000000;
     -webkit-box-shadow: 0 0 40px #000000;
     box-shadow: 0 0 40px #000000;
+    transition: .5s;
 }
 
 .content-home {
@@ -264,12 +271,14 @@
     margin-left: 175px;
     border: none;
     background: white;
+    transition: .5s;
 }
 
 .contact input[type="submit"]:hover {
     background: #B3B3B3;
     /* removes ugly edge to button */
     border: none;
+    transition: .5s;
 }
 
 .contact-msg {
@@ -350,12 +359,14 @@
     text-align: center;
     line-height: 60px;
     /*font-variant: small-caps;*/
+    transition: .5s;
 }
 
 .about-resume:hover {
     -moz-box-shadow: 0 0 40px #000000;
     -webkit-box-shadow: 0 0 40px #000000;
     box-shadow: 0 0 40px #000000;
+    transition: .5s;
 }
 
 .about-social-media {
@@ -371,11 +382,13 @@
     float: right;
     margin: 20px 55px 20px 95px;
     position: relative;
+    transition: .5s;
 }
 
 .about-social-media img:hover {
     -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.9));
     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.9));
+    transition: .5s;
 }
 
 .about-info {
