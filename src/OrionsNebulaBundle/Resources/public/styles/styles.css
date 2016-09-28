@@ -62,9 +62,7 @@
 
 .menu-items a:hover, .menu-items a:active, .menu-items a:target {
     color: #b3b3b3;
-    font: 55px Arial;
-    margin-top: -15px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .menu-img {
@@ -74,13 +72,10 @@
 
     /* NOTE: webkit only works on Safari and Chrome */
     -webkit-transition: -webkit-filter .5s;
-    -webkit-transition: .5s;
+    -webkit-transition: .3s;
 }
 
 .menu-img:hover {
-    height: 50px;
-    width: 50px;
-    margin-top: -15px;
     transition: .5s;
 
     /* NOTE: webkit only works on Safari and Chrome */
