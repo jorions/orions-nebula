@@ -391,17 +391,16 @@
     display: inline-block;
     height: 430px;
     float: right;
-    margin-left: 20px;
     margin-top: -296px;
+    margin-right: 26px;
+    margin-left: 20px;
     -moz-box-shadow: 0 0 20px #000000;
     -webkit-box-shadow: 0 0 20px #000000;
     box-shadow: 0 0 20px #000000;
-
 }
 .about-img {
     width: 430px;
     padding: 0;
-    margin-right: 26px;
 }
 .about-img img {
     margin: auto;
