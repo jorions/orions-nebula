@@ -271,53 +271,6 @@
 
 
 
-/* ########################## CONTACT ########################## */
-.contact {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact input[type="text"], .contact input[type="email"] {
-    width: 600px;
-    height: 30px;
-    margin-bottom: 15px;
-}
-
-.contact textarea {
-    width: 600px;
-    height: 150px;
-    font: 12px Arial;
-    margin-bottom: 15px;
-}
-
-.contact input[type="submit"] {
-    width: 250px;
-    height: 30px;
-    font: 18px Arial;
-    margin-left: 175px;
-    border: none;
-    background: white;
-    transition: .5s;
-}
-
-.contact input[type="submit"]:hover {
-    background: #B3B3B3;
-    /* removes ugly edge to button */
-    border: none;
-    transition: .5s;
-}
-
-.contact-msg {
-    font: 16px Arial;
-    text-align: center;
-}
-
-
-
-
-
-
 /* ########################## ABOUT ME ########################## */
 .about-wrapper {
     width: 1000px;

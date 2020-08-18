@@ -15,7 +15,3 @@ orions_nebula_portfolio_artwork:
 orions_nebula_portfolio_programming:
     path: /programming
     defaults: {_controller: OrionsNebulaBundle:Portfolio:programming }
-
-orions_nebula_contact:
-    path: /contact
-    defaults: {_controller: OrionsNebulaBundle:Contact:contact }
